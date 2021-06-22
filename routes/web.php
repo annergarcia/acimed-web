@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CalendarioController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/calendario', function () {
+    return view('calendario');
+});
+
+Route::get('/form', function () {
+    return view('formularioCalendario');
+});
+
+Route::get('Calendar/event/{mes}','ControllerCalendario@index_month');
+Route::get('Calendar/event','ControllerCalendario@index');
