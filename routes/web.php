@@ -14,8 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('login');
-});
-Route::get('/doctor', function () {
-    return view('formulario');
+    return view('welcome');
 });
