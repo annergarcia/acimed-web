@@ -14,7 +14,17 @@ use App\Http\Controllers\CalendarioController;
 |
 */
 
-Route::get('/login', function () {
-    return view('login');
+Route::get('/', function () {
+    return view('welcome');
 });
 
+Route::get('/calendario', function () {
+    return view('calendario');
+});
+
+Route::get('/form', function () {
+    return view('formularioCalendario');
+});
+
+Route::get('Calendar/event/{mes}','ControllerCalendario@index_month');
+Route::get('Calendar/event','ControllerCalendario@index');
