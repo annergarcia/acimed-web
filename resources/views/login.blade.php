@@ -4,6 +4,8 @@
 <head>
 
 
+    <head> <title>MEDICAL RECORD</title>
+
     <p class="fant">MedicalRecord</p>
 
     <meta charset="UTF-8">
