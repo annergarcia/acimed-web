@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/products',function(){
-        return 'products';
+Route::get('/usuarios',function(){
+        return 'usuarios';
 });
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {

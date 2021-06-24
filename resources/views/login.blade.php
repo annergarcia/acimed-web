@@ -6,7 +6,7 @@
 
     <head> <title>MEDICAL RECORD</title>
 
-    <p class="fant">MedicalRecord</p>
+    <p class="fant">Medical Record</p>
 
     <meta charset="UTF-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -14,11 +14,11 @@
     <style>
         p.fant {
             font-family: Abel;
-            font-size: 60px;
+            font-size: 50px;
             color: #000000;
             font-weight: bold;
             text-align: left;
-            left: 500px;
+            left: 510px;
             position: relative;
             top: 50px;
 
@@ -36,9 +36,9 @@
         }
         .form {
             width: 300px;
-            height: 350px;
+            height: 400px;
             position: center;
-            left: 750px;
+            border-radius:20px;
 
 
         }
@@ -95,7 +95,7 @@
     <div class="abs-center">
         <form action="#" class="border p-3 form">
             <div class="login">
-                <label>LOGIN</label>
+                <img src="img/login.png" style="width: 80px; height: 80px; border: 2px">
             </div>
             <div class="form-group">
                 <br>
