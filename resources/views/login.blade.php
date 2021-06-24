@@ -95,7 +95,7 @@
     <div class="abs-center">
         <form action="#" class="border p-3 form">
             <div class="login">
-                <img src="img/login.png" style="width: 80px; height: 80px; border: 2px">
+                <img src="img/icono.png" style="width: 80px; height: 80px; border: 2px">
             </div>
             <div class="form-group">
                 <br>
