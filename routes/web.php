@@ -28,3 +28,8 @@ Route::get('/register', function () {
 Route::get('/dashbord', function () {
     return view('dashbord');
 });
+
+Route::get('/home', function () {
+    return view('home');
+});
+
