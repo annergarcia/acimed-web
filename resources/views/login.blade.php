@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head> <title>MEDICAL RECORD</title>
+<head>
 
 
     <p class="fant">MedicalRecord</p>
@@ -115,6 +115,7 @@
 
 
         </form>
+
 
     </div>
 </div>
