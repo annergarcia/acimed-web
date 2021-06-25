@@ -17,4 +17,13 @@ Route::get('/', function () {
     return view('login');
 });
 
+Route::get('/ingresar', [UsuarioController::class, 'index'])
+    ->name('ingresar.index');
 
+//mostrar formulario
+Route::get('/cuenta/crear', [CuentaController::class, 'create'])
+    ->name('crear_cuenta.crear');
+
+Route::get('/crear', function () {
+    return view('fomulario');
+});
